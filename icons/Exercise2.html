@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Challenge 1
+        </title>
+    </head>
+    <body>
+        <div class="Title">
+            <h1>3a.Uber</h1>
+            <h1>3b.Amazon</h1>
+            <h1>3c.Github</h1>
+        </div> 
+        <div class="S">
+
+            <button class="H">
+                Request now
+            </button> 
+
+            <button class="B">
+                Add to Cart
+            </button>
+
+            <button class="K">
+                Sign up
+            </button>
+        </div>
+
+        <div class="Titre1">
+            <h1>3d.Bootstrap</h1>
+            <h1>3e.Linkedln</h1>
+            <h1>3f.Running</h1>
+        </div>
+
+        <div class="Titre2">
+
+            <button class="Get">
+                Get started
+            </button>
+
+            <button class="DO">
+                Download
+            </button>
+
+            <button class="APP">
+                Apply on company website
+            </button>
+
+            <button class="SA">
+                Save
+            </button>
+
+            <button class="BY">
+                Buy now
+            </button>
+        </div>
+            <form action="">
+                <style>
+                    .Title{
+                        text-align: center;
+                        display: flex;
+                        font-size: 15px;
+                        text-indent: 80px;
+                    }    
+                    .S{
+                        text-align: center;
+                        display: flex;
+                        text-indent: 60px;
+                        font-size: 400px;
+                    }
+                </style> 
+                <style>
+                    .H{
+                        border: none;
+                        font-size: 15px;
+                        cursor: pointer;
+                        width: 140px;
+                        height: 50px;
+                        background-color: rgba(0, 0, 0, 0.929);
+                        padding: auto;
+                        color: white;
+                        font-weight: 100px;
+                        margin-right: 50px;
+                        transition: opacity 0.1s;
+                        transition: box-shadow 2s;
+
+                    }
+                    .H:hover{
+                        box-shadow: 15px 15px rgba(0, 0, 0, 0.196);
+                    }
+                    .H:hover{
+                        opacity: 0.8;
+    
+                    }
+                    .H:active{
+                        opacity: 0.5;
+
+                    }    
+                    .B{
+                        border: none;
+                        font-weight: 100px;
+                        cursor: pointer;
+                        width: 300px;
+                        height: 50px;
+                        background-color: rgba(255, 166, 0, 0.937);
+                        color: black;
+                        font-size: 15px;
+                        margin-right: 50px;
+                        font-weight: bold;
+                        border-radius: 28px;
+                        transition: opacity 0.1s;
+                        transition: box-shadow 2s;
+                    }
+                    .B:hover{
+                        box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.196);
+                    }
+                    .B:hover{
+                        opacity: 0.8;
+                    }
+                    .B:active{
+                        opacity: 0.5;
+                    }
+                    .K{     
+                        background-color: rgb(0, 128, 0);
+                        border: none;
+                        cursor: pointer;
+                        width: 140px;
+                        height: 50px;
+                        color: white;
+                        font-size: 15px;
+                        border-radius: 25px;
+                        transition: opacity 0.1s;
+                        transition: box-shadow 1s;
+
+                    }
+                    
+                    .K:hover{
+                        box-shadow: 15px 15px rgba(0, 0, 0, 0.196);
+                    }
+                    .K:hover{
+                        opacity: 0.8;
+                    }
+                    .K:active{
+                        opacity: 0.5;
+                    }
+
+                </style>
+
+                <style>
+                    .Titre1{
+                        border: none;
+                        text-align: right;
+                        display: flex;
+                        text-indent: 200px;
+                        font-size: 15px;
+                        margin-top: 100px;
+                        margin-right: 400px;
+                        margin-inline-end: 100px;
+                    }
+                    .Titre2{    
+                        font-size: 15px;
+                        display: flex;
+                        text-indent: 700px;
+                        font-size: 15px;
+        
+                    }
+                </style>
+                <style>
+                    .Get{
+                        border: none;
+                        font-size: 15px;
+                        background-color: rgba(137, 43, 226, 0.921);
+                        color: white;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-weight: bold;
+                        width: 150px;
+                        height: 45px;
+                        padding-right: 5px;
+                        transition: opacity 0.1s;
+                        transition: box-shadow 2s;
+    
+                    }
+                    .Get:hover{
+                        box-shadow: 15px 15px rgba(0, 0, 0, 0.196);
+                    }
+                    .Get:hover{
+                        opacity: 0.8;    
+                    }
+                    .Get:active{
+                        opacity: 0.5;
+                    }
+                    .DO{
+                        border: none;
+                        font-size: 15px;
+                        background-color: rgb(240, 248, 255);
+                        color: black;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        width: 150px;
+                        height: 47px;
+                        font-weight: bold;
+                        margin-left: 30px;
+                        transition: background-color 2s,
+                        color 2s;
+                        transition: box-shadow 2s; 
+                    }
+                    .DO:hover{
+                        box-shadow: 15px 15px rgba(0, 0, 0, 0.196);
+                    }
+                    .DO:hover{
+                        background-color: blue;
+                        color: aliceblue;
+                    }
+                    .DO:active{
+                        opacity: 0.5;
+                    }    
+                    .APP{
+                        border: none;
+                        font-size: 15px;
+                        background-color: rgb(0, 0, 255);
+                        color: white;
+                        cursor: pointer;
+                        border-radius: 25px;
+                        width: 300px;
+                        height: 47px;
+                        font-weight: bold;
+                        margin-left: 50px;
+                        transition: opacity 0.1s;
+                        transition: box-shadow 2s;
+                    }
+                    .APP:hover{
+                        box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.196);
+                    }
+                    .APP:hover{
+                        opacity: 0.8;
+                    }
+                    .APP:active{
+                        opacity: 0.5;
+                    }
+                    .SA{
+                        border: none;
+                        font-size: 15px;
+                        background-color: rgb(240, 248, 255);
+                        color: blue;
+                        cursor: pointer;
+                        width:  80px;
+                        height: 47px;
+                        border-radius: 28px;
+                        margin-left: 20px;
+                        font-weight: bold;
+                        transition: background-color 2s,
+                            color 2s;
+                        transition: box-shadow 2s;    
+                    }
+                    .SA:hover{
+                        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
+                    }
+                    .SA:hover{
+                        background-color: green;
+                        color: aliceblue;
+                    }
+                    .SA:active{
+                        opacity: 0.5;
+                    }
+                    .BY{
+                        border: none;
+                        width: 200px;
+                        height: 50px;
+                        background-color: rgb(255, 68, 0);
+                        color: white;
+                        border-radius: 28px;
+                        cursor: pointer;
+                        font-size: 15px;
+                        margin-left: 150px;
+                        transition: opacity 2s;
+                        transition: box-shadow 2s;
+                    }
+                    .BY:hover{
+                        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.196);
+                    }
+                    .BY:hover{
+                        opacity: 0.8;
+                    }
+                    .BY:active{
+                        opacity: 0.5;
+                    }
+                
+
+                </style>
+
+            </form>
+    </body>
+</html>   
